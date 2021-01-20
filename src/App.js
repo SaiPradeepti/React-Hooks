@@ -1,6 +1,6 @@
 import React from 'react'
-import BasicCounter from "./tutorial/1.Basic-Counter";
-import ToDo from "./tutorial/2.ToDo/todo";
+import BasicCounter from "./tutorial/useReducer/1.Basic-Counter";
+import ToDo from "./tutorial/useReducer/2.ToDo/todo";
 
 
 function App() {
