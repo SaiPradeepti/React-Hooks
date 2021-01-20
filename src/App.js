@@ -5,8 +5,8 @@ import ToDo from "./tutorial/2.todo";
 
 function App() {
   return (
-    <BasicCounter />
-    // <ToDo />
+    // <BasicCounter />
+    <ToDo />
   );
 }
 
