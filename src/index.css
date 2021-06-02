@@ -23,7 +23,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   color: black;
 }
 button {
@@ -68,4 +68,29 @@ button {
   border-top: none;
   border-bottom: 1px solid blue;
   outline: none;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.backgroundTheme {
+  width: 50%;
+  margin: auto;
+}
+
+.backgroundTheme input[type="text"] {
+  width: 100%;
+  margin-top: 6rem;
+  border-bottom: 1px solid black;
+}
+
+.backgroundTheme .text {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.lightText {
+  color: #fff;
 }

@@ -5,6 +5,8 @@ import ToDo from "./tutorial/useReducer/2.ToDo/todo";
 import ContextAPI from "./tutorial/useContextCustomHook/context-api"
 import DataApp from "./tutorial/CustomHooks/1-useFetch/DataApp"
 import LocalStorageApp from "./tutorial/CustomHooks/2-useLocalStorage/LocalStorageApp"
+import UpdateTitleApp from "./tutorial/CustomHooks/3-UpdateTitle/UpdateTitleApp"
+import BackgroundThemeApp from "./tutorial/CustomHooks/4-useBackground/BackgroundThemeApp"
 
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
     // <ToDo />
     // <ContextAPI />
     // <DataApp />
-    <LocalStorageApp />
+    // <LocalStorageApp />
+    // <UpdateTitleApp />
+    <BackgroundThemeApp />
   );
 }
 
