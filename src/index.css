@@ -23,7 +23,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   color: black;
 }
 button {
@@ -93,4 +93,17 @@ button {
 
 .lightText {
   color: #fff;
+}
+
+.form-control {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input[type="color"] {
+  border: none;
+  cursor: pointer;
 }
