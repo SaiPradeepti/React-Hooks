@@ -9,6 +9,7 @@ import React from 'react'
 // import BackgroundThemeApp from "./tutorial/CustomHooks/4-useBackground/BackgroundThemeApp"
 // import EventListenerApp from './tutorial/CustomHooks/5-useEventListener/EventListenerApp'
 import ParentComponent from './tutorial/propTypes/tutorial1/ParentComponent'
+import PizzaApp from './tutorial/propTypes/tutorial2/PizzaApp'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     // <UpdateTitleApp />
     // <BackgroundThemeApp />
     // <EventListenerApp />
-    <ParentComponent />
+    // <ParentComponent />
+    <PizzaApp />
   );
 }
 
