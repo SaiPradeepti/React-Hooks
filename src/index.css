@@ -55,8 +55,8 @@ button {
 
 .imgGallery img {
   border: 1px solid black;
-  height: 100%;
-  width: 100%;
+  height: 45%;
+  width: 45%;
   object-fit: contain;
 }
 

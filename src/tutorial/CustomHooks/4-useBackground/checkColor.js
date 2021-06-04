@@ -1,4 +1,4 @@
-var element, bgColor, brightness, r, g, b, hsp;
+var r, g, b, hsp;
 
 export function lightOrDark(color) {
 
