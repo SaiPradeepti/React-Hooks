@@ -2,11 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const details = {
-    // name: 'Bob',
+    name: 'Bob',
     age: 25,
     company: 'XYZ',
     role: 'Sr. Dev',
     department: 'Software Development',
+    skills: ['React', 'MERN', 99],
+    isCertified: true
 }
 
 const ParentComponent = props => {
@@ -31,6 +33,14 @@ const PersonComponent = (props) => {
             <p>company - {props.details.company}</p>
             <p>role - {props.details.role}</p>
             <p>department - {props.details.department}</p>
+            <p>skills - 
+            {
+                props.details.skills.map((item,index) => {
+                    return <span key={index}>{item} </span>
+                })
+            }
+            </p>
+            <p>Is Certified: {props.details.isCertified ? 'Y' : 'N'}</p>
         </div>
     )
 }
@@ -38,10 +48,13 @@ const PersonComponent = (props) => {
 PersonComponent.propTypes = {
     details: PropTypes.shape({
         name: PropTypes.string,
-        age: PropTypes.number,
+        // age: PropTypes.number,
+        age: PropTypes.oneOfType([PropTypes.string,PropTypes.number]),
         company: PropTypes.string.isRequired,
         role: PropTypes.string,
         department: PropTypes.string,
+        skills: PropTypes.arrayOf(PropTypes.string),
+        isCertified: PropTypes.bool,
     })
 }
 

@@ -22,8 +22,8 @@ function App() {
     // <UpdateTitleApp />
     // <BackgroundThemeApp />
     // <EventListenerApp />
-    // <ParentComponent />
-    <PizzaApp />
+    <ParentComponent />
+    // <PizzaApp />
   );
 }
 
