@@ -8,8 +8,9 @@ import React from 'react'
 // import UpdateTitleApp from "./tutorial/CustomHooks/3-UpdateTitle/UpdateTitleApp"
 // import BackgroundThemeApp from "./tutorial/CustomHooks/4-useBackground/BackgroundThemeApp"
 // import EventListenerApp from './tutorial/CustomHooks/5-useEventListener/EventListenerApp'
-import ParentComponent from './tutorial/propTypes/tutorial1/ParentComponent'
-import PizzaApp from './tutorial/propTypes/tutorial2/PizzaApp'
+// import ParentComponent from './tutorial/propTypes/tutorial1/ParentComponent'
+// import PizzaApp from './tutorial/propTypes/tutorial2/PizzaApp'
+import ReactRouterSetup from './tutorial/6-ReactRouter/example1'
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
     // <UpdateTitleApp />
     // <BackgroundThemeApp />
     // <EventListenerApp />
-    <ParentComponent />
+    // <ParentComponent />
     // <PizzaApp />
+    <ReactRouterSetup />
   );
 }
 
