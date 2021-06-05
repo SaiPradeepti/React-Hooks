@@ -24,7 +24,7 @@ const Products = () => {
                         <article key={id} className='routerProduct'>                            
                             <Link to={`/product/${id}`}>
                             <img src={fields.image[0].thumbnails.small.url} alt={fields.name} />
-                            <p className='item'>Item: {fields.name}</p>
+                            <p className='item'>{fields.name}</p>
                             <p className='price'>Price: ${fields.price}</p>
                             </Link>
                         </article>

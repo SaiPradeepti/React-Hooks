@@ -159,10 +159,21 @@ body {
 
 .links a {
   margin-right: 1rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
 }
 
 .routerNavbar {
-  margin: auto;
+  width: 60%;
+  border-bottom: 1px solid rgb(119, 118, 118);
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .product-container {
@@ -183,19 +194,87 @@ body {
   display: flex;
   gap: 2rem;
   margin-bottom: 1rem;
+  transition: all 0.4s ease;
 }
 .routerProduct a:hover {
   box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.4);
+  transform: scale(1.2);
 }
 .routerProduct a > * {
   text-decoration: none;
 }
 
-.routerProduct a img {
-  width: 3rem;
-  object-fit: cover;
-}
-
 .routerProduct a .item {
   width: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.productDetails {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.productDetails .btn {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  width: max-content;
+  margin: auto;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+
+.productDetails .btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.product-section {
+  display: flex;
+  margin: 5rem;
+}
+
+.product-section img {
+  width: 50%;
+  height: 60vh;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  border: 3px solid rgb(158, 158, 158);
+}
+
+.product-section img:hover {
+  transform: scale(1.1);
+}
+
+.product {
+  display: flex;
+  padding: 3rem 4rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.product .item {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.product .price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(184, 164, 50);
+  letter-spacing: 0.2rem;
+}
+
+.product .company {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: rgb(80, 12, 12);
 }
