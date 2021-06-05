@@ -8,7 +8,7 @@ const details = {
     role: 'Sr. Dev',
     department: 'Software Development',
     skills: ['React', 'MERN', 99],
-    isCertified: true
+    isCertified: true,
 }
 
 const ParentComponent = props => {
