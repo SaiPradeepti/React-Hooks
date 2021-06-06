@@ -11,6 +11,7 @@ import React from 'react'
 // import ParentComponent from './tutorial/propTypes/tutorial1/ParentComponent'
 // import PizzaApp from './tutorial/propTypes/tutorial2/PizzaApp'
 import ReactRouterSetup from './tutorial/6-ReactRouter/example1'
+// import ReactRouterSetup from './tutorial/6-ReactRouter/example2'
 
 
 function App() {

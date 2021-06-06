@@ -29,10 +29,8 @@ const ReactRouterSetup = () => {
         <Route path='/products'>
           <Products />
         </Route>
-        <Route path='/product/:id'>
-          <ProductDetails />
-        </Route>
-        <Route path='/error'>
+        <Route path='/product/:id' children={<ProductDetails />}></Route>
+        <Route path='*'>
           <Error />
         </Route>
       </Switch>
